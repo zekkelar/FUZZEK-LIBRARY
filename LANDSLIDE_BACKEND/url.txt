@@ -1,0 +1,8 @@
+http://127.0.0.1:5000/humidity?id=add&value=100
+http://127.0.0.1:5000/humidity?id=view
+http://127.0.0.1:5000/raindrop?id=add&value=100
+http://127.0.0.1:5000/mpu605?id=add&ax=100&ay=199&az=383&gx=919&gy=83&gz=939
+
+
+{'CH': ['Sedang', 'Hujan'], 'S': ['Normal', 'Basah'], 'G': ['Sedang'], 'T': ['Dingin', 'Hangat'], 'P': ['Rendah']}
+{'CH': ['Sedang', 'Hujan'], 'S': ['Normal', 'Basah'], 'G': ['Rendah', 'Sedang'], 'T': ['Dingin', 'Hangat'], 'P': ['Rendah']}
